@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
   const [id, setId] = useState('');
   return (
     <html lang="en">
-      <Head><script src="https://kit.fontawesome.com/e852077c87.js" crossorigin="anonymous"></script></Head>
+      <Head>
+        <script src="https://kit.fontawesome.com/e852077c87.js" crossorigin="anonymous"></script>
+        </Head>
+        <title>CloudOlle</title>
       <AppContext.Provider value={{id, setId}}>
       <body className={inter.className}>
         {children}

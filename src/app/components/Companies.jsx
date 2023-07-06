@@ -59,13 +59,23 @@ const Wrapper = styled.div`
       padding: 60px 0 0;
     }
   }
+  @media (max-width: 1023px) {
+    div {
+      section {
+        gap: 30px 20px;
+        img {
+          width: 120px;
+        }
+      }
+    }
+  }
   @media (max-width: 767px) {
     div {
       h1 {
         font-size: 30px;
       }
       section {
-        gap: 10px 10px;
+        
         img {
           width: 60px;
         }
