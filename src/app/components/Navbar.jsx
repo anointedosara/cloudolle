@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <Wrapper>
       <img className="logo" src="./images/logo.svg" alt="" />
-      <div className={!show ? "drop" : "hang"}>
+      <div className={show === true ? "drop" : "hang"}>
         <button className={id === 1 ? "hide" : ""} onClick={() => setId(1)}>
           <p>Solutions <FaCaretDown /></p>
           <section className={id === 1 ? "show" : ""}>
