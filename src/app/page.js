@@ -10,19 +10,8 @@ import OurServices from './components/OurServices'
 import SuccessStories from './components/SuccessStories'
 import Technologies from './components/Technologies'
 import WhatWeDo from './components/WhatWeDo'
-import AppContext from './context/store'
 
 export default function Home() {
-  const {id, setId} = useContext(AppContext)
-
-  const handleScroll = () => {
-    setId('')
-  };
-  
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll); 
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
   return (
     <>
     <Navbar />

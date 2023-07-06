@@ -1,11 +1,12 @@
 "use client";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { FaCaretDown } from "react-icons/fa";
 import AppContext from "../context/store";
 
 function Navbar() {
   const [show, setShow] = useState(false);
+  const [id, setId] = useState('');
   const solutions = [
     "eGovernment",
     "Cloud Engineering",
@@ -34,7 +35,14 @@ function Navbar() {
     "Health & life sciences",
     "Utilities",
   ];
-  const { id, setId } = useContext(AppContext);
+  const handleScroll = () => {
+    setId('')
+  };
+  
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll); 
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
   return (
     <Wrapper>
       <img className="logo" src="./images/logo.svg" alt="" />
@@ -79,8 +87,6 @@ function Navbar() {
 
 const Wrapper = styled.div`
   display: flex;
-  max-width: 1540px;
-  margin: 0 auto;
   padding: 15px 95px 15px 95px;
   justify-content: space-between;
   align-items: center;
@@ -155,8 +161,8 @@ const Wrapper = styled.div`
     }
   }
   span {
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
