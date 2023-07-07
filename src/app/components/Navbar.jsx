@@ -218,6 +218,7 @@ const Wrapper = styled.div`
           padding: 20px 40px;
           border-top: 6px solid #39c;
           margin-top: 20px;
+          transition: 0.5s all ease;
         }
       }
     }
