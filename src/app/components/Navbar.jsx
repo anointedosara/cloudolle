@@ -2,7 +2,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { FaCaretDown } from "react-icons/fa";
-import AppContext from "../context/store";
 
 function Navbar() {
   const [show, setShow] = useState(false);
