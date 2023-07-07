@@ -115,7 +115,7 @@ const Wrapper = styled.div`
       line-height: normal;
       transition: 0.5s all ease;
       position: relative;
-      z-index: 10000;
+      z-index: 1;
       p {
         display: flex;
         align-items: center;
