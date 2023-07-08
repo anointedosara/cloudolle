@@ -108,7 +108,7 @@ const Wrapper = styled.div`
       background: transparent;
       margin-left: 50px;
       color: #001833;
-      font-size: 16px;
+      font-size: 20px;
       font-family: "Hanken Grotesk", sans-serif;
       font-style: normal;
       font-weight: 600;
@@ -116,6 +116,7 @@ const Wrapper = styled.div`
       transition: 0.5s all ease;
       position: relative;
       z-index: 1;
+      cursor: pointer;
       p {
         display: flex;
         align-items: center;
@@ -134,6 +135,7 @@ const Wrapper = styled.div`
         padding: 20px 40px;
         border-top: 6px solid #39c;
         transition: 0.5s all ease;
+        cursor: auto;
         p {
           color: #39c;
           text-align: left;
@@ -142,6 +144,7 @@ const Wrapper = styled.div`
           font-weight: 500;
           line-height: normal;
           transition: 0.5s all ease;
+          cursor: pointer;
           &:hover {
             color: #2b2d42;
           }
@@ -175,7 +178,7 @@ const Wrapper = styled.div`
     padding: 15px 20px 15px 20px;
     div {
       button {
-        margin-left: 40px;
+        margin-left: 20px;
       }
     }
   }
@@ -199,8 +202,8 @@ const Wrapper = styled.div`
         flex-direction: column;
         justify-content: center;
         margin-left: 0px;
-        margin-top: 30px;
-        font-size: 25px;
+        margin-top: 20px;
+        font-size: 30px;
         section {
           position: absolute;
           padding: 0 40px;
@@ -242,7 +245,7 @@ const Wrapper = styled.div`
         width: max-content;
         margin-left: 0px;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 30px;
         section {
           position: absolute;
           padding: 0 40px;
@@ -254,6 +257,9 @@ const Wrapper = styled.div`
           grid-template-columns: 1fr;
           grid-gap: 10px;
           width: 100%;
+          p {
+            font-size: 18px;
+          }
         }
         .show {
           opacity: 1;

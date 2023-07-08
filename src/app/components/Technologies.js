@@ -89,12 +89,12 @@ const Wrapper = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 96.52%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   p {
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 27px;
@@ -107,7 +107,7 @@ const Wrapper = styled.div`
     font-family: "Hanken Grotesk", sans-serif;
     gap: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -132,17 +132,16 @@ position: relative;
   display: flex;
   justify-content: space-around;
   gap: 30px;
-  max-width: 1250px;
-  padding: 0 75px;
-  margin: 0 auto;
+  padding: 0 60px;
+  margin: 60px auto 0;
   flex-wrap: wrap;
   align-items: center;
   div {
     border-radius: 20px;
     background-size: auto;
     color: white;
-    width: 255px;
-    height: 550px;
+    width: 280px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,11 +154,11 @@ position: relative;
       padding: 0 40px;
       position: absolute;
       bottom: 40px;
-      height: 160px;
+      height: 180px;
       h2 {
         color: #fff;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -171,7 +170,7 @@ position: relative;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: normal;
+        line-height: 35px;
       }
       img {
         position: absolute;
@@ -197,11 +196,10 @@ position: relative;
       justify-content: center;
       .over {
         text-align: center;
-        padding: 0 40px;
         h2 {
           color: #fff;
           text-align: center;
-          font-size: 16px;
+          font-size: 18px;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
@@ -211,9 +209,9 @@ position: relative;
           color: #fff;
           text-align: center;
           font-size: 20px;
-          font-style: normal;
+          line-height: 35px;
           font-weight: 400;
-          line-height: normal;
+          font-style: normal;
         }
         img {
           position: absolute;
@@ -234,7 +232,7 @@ position: relative;
   @media (max-width: 1023px) {
     padding: 0;
     div {
-      height: 500px;
+      height: 520px;
     }
     .arrows {
       display: none;
@@ -243,7 +241,7 @@ position: relative;
   @media (max-width: 500px) {
     padding: 0;
     div {
-      height: 450px;
+      height: 500px;
     }
     .arrows {
       display: none;

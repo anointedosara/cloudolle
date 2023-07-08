@@ -90,13 +90,13 @@ const Wrapper = styled.div`
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
     button {
       color: #000;
-      font-size: 16px;
+      font-size: 22px;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       line-height: normal;
       background: transparent;
       border: none;

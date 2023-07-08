@@ -51,9 +51,9 @@ function Footer() {
         </div>
       </section>
       <div className="btm">
-        <img src="./images/white-Logo.svg" alt="" />
+        <img className="logo" src="./images/white-Logo.svg" alt="" />
         <img className="socials" src="./images/socials.svg" alt="" />
-        <p>© 2022 Cloudolle. All rights reserved.</p>
+        <p>© 2023 Cloudolle. All rights reserved.</p>
       </div>
     </Wrapper>
   );
@@ -72,7 +72,7 @@ const Wrapper = styled.div`
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     h1 {
       color: #fff;
-      font-size: 20px;
+      font-size: 22px;
       font-style: normal;
       font-weight: 500;
       line-height: 30.147px;
@@ -80,7 +80,7 @@ const Wrapper = styled.div`
     }
     p {
       color: #fff;
-      font-size: 14px;
+      font-size: 16px;
       opacity: 0.75;
       font-style: normal;
       font-weight: 400;
@@ -93,17 +93,21 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 40px 20px 70px;
+    .logo {
+      width: 120px;
+    }
     p {
       color: #fff;
       text-align: center;
-      font-size: 14px;
+      font-size: 17px;
       font-style: normal;
       font-weight: 400;
       line-height: 6.167px;
     }
     .socials {
       margin: 30px 0;
+      width: 170px;
     }
   }
   @media (max-width: 500px) {

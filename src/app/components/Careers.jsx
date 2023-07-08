@@ -85,15 +85,15 @@ const Wrapper = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 96.52%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   p {
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 30px;
   }
   button {
     display: flex;
@@ -103,9 +103,9 @@ const Wrapper = styled.div`
     font-family: "Hanken Grotesk", sans-serif;
     gap: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     background: transparent;
     border: none;
@@ -130,17 +130,15 @@ const Wrapper = styled.div`
 const CareersDiv = styled.div`
   display: flex;
   justify-content: space-around;
-  gap: 30px;
-  max-width: 1350px;
-  margin: 0 auto;
+  gap: 20px;
   flex-wrap: wrap;
   align-items: center;
   div {
     border-radius: 20px;
     background-size: auto;
     color: white;
-    width: 255px;
-    height: 550px;
+    width: 280px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,14 +148,13 @@ const CareersDiv = styled.div`
     }
     .details {
       text-align: center;
-      padding: 0 40px;
       position: absolute;
       bottom: 40px;
-      height: 160px;
+      height: 180px;
       h2 {
         color: #fff;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -169,7 +166,7 @@ const CareersDiv = styled.div`
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: normal;
+        line-height: 35px;
       }
       img {
         position: absolute;
@@ -194,11 +191,10 @@ const CareersDiv = styled.div`
       justify-content: center;
       .over {
         text-align: center;
-        padding: 0 40px;
         h2 {
           color: #fff;
           text-align: center;
-          font-size: 16px;
+          font-size: 18px;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
@@ -222,12 +218,12 @@ const CareersDiv = styled.div`
   @media (max-width: 1023px) {
     padding: 0;
     div {
-      height: 500px;
+      height: 520px;
     }
   }
   @media (max-width: 500px) {
     div {
-      height: 450px;
+      height: 500px;
     }
   }
 `;

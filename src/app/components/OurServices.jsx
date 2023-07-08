@@ -85,7 +85,7 @@ const Wrapper = styled.div`
   p {
     color: #2b2d42;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 27px;
@@ -194,8 +194,14 @@ const Services = styled.div`
   @media (max-width: 1060px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  @media (max-width: 816px) {
+    gap: 30px;
+  }
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    div {
+      height: 380px;
+    }
   }
   @media (max-width: 550px) {
     grid-template-columns: 1fr;

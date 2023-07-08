@@ -38,7 +38,7 @@ function WhatWeDo() {
 }
 
 const Wrapper = styled.div`
-  max-width: 1350px;
+  max-width: 1400px;
   margin: 0 auto;
   color: white;
   display: flex;
@@ -57,13 +57,13 @@ const Wrapper = styled.div`
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
     p {
-      font-size: 18px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: normal;
+      line-height: 35px;
     }
   }
   @media (max-width: 1023px) {
@@ -87,9 +87,9 @@ const Wrapper = styled.div`
 
 const Button = styled.button`
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   background: transparent;
   border: none;
