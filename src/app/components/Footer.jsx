@@ -115,10 +115,10 @@ const Wrapper = styled.div`
       max-width: 100%;
       margin: 0 auto;
       h1 {
-        font-size: 9.5px;
+        font-size: 13px;
       }
       p {
-        font-size: 7.5px;
+        font-size: 9px;
       }
     }
   }
