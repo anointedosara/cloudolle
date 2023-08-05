@@ -60,9 +60,11 @@ function Footer() {
 }
 
 const Wrapper = styled.div`
+width: 100%;
   background: #01162e;
   padding: 100px 20px 0;
   section {
+    width: 100%;
     max-width: 1226px;
     margin: 0 auto;
     display: flex;
@@ -112,14 +114,6 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     width: 100%;
-    section {
-      h1 {
-        font-size: 13px;
-      }
-      p {
-        font-size: 11px;
-      }
-    }
   }
   @media (max-width: 500px) {
     background: #01162e;
