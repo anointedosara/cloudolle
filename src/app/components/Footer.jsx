@@ -115,10 +115,10 @@ const Wrapper = styled.div`
       flex-wrap: wrap !important;
       width: 100%;
       h1 {
-        font-size: 9px;
+        font-size: 13px;
       }
       p {
-        font-size: 5px;
+        font-size: 11px;
       }
     }
   }
