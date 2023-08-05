@@ -67,12 +67,13 @@ const Wrapper = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap !important;
-    gap: 30px 0;
+    flex-wrap: wrap;
+    gap: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     h1 {
       color: #fff;
       font-size: 22px;
+      font-style: normal;
       font-weight: 500;
       line-height: 30.147px;
       margin-bottom: 20px;
@@ -111,16 +112,6 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     width: 100%;
-    section {
-      flex-wrap: wrap !important;
-      width: 100%;
-      h1 {
-        font-size: 12px;
-      }
-      p {
-        font-size: 9px;
-      }
-    }
   }
   @media (max-width: 500px) {
     background: #01162e;
@@ -131,9 +122,6 @@ const Wrapper = styled.div`
       flex-direction: column;
       gap: 30px;
       text-align: center;
-      p {
-        font-size: 16px;
-      }
     }
     .btm {
       display: flex;
@@ -141,9 +129,6 @@ const Wrapper = styled.div`
       align-items: center;
       flex-direction: column;
       padding: 40px 0px 50px;
-      p {
-        font-size: 15px;
-      }
     }
   }
 `;

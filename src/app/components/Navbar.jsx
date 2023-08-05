@@ -175,6 +175,7 @@ const Wrapper = styled.div`
     display: block;
   }
   @media (max-width: 1023px) {
+    width: 100%;
     padding: 15px 20px 15px 20px;
     div {
       button {

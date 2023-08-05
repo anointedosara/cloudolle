@@ -67,6 +67,7 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 1023px) {
+    width: 100%;
     flex-direction: column;
     text-align: center;
     gap: 50px;

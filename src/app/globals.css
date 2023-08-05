@@ -56,6 +56,11 @@ body {
   margin-bottom: 40px !important;
 }
 
+@media screen and (max-width: 1023px) {
+  .slides {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .content h1 {
     font-size: 40px;

@@ -61,6 +61,7 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 1023px) {
+    width: 100%;
     div {
       section {
         gap: 30px 20px;
