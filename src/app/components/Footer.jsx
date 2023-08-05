@@ -110,14 +110,12 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 1023px) {
-    max-width: 100%;
-      margin: 0 auto;
+    width: 100%;
     section {
       flex-wrap: wrap !important;
-      max-width: 100%;
-      margin: 0 auto;
+      width: 100%;
       h1 {
-        font-size: 13px;
+        font-size: 12px;
       }
       p {
         font-size: 9px;
