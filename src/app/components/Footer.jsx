@@ -53,7 +53,7 @@ function Footer() {
       <div className="btm">
         <img className="logo" src="./images/white-Logo.svg" alt="" />
         <img className="socials" src="./images/socials.svg" alt="" />
-        <p>© 2023 Cloudolle. All rights reserved.</p>
+        <p>©2023 Cloudolle. All rights reserved.</p>
       </div>
     </Wrapper>
   );
@@ -93,7 +93,8 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 20px 70px;
+    width: 100%;
+    padding: 40px 0px 70px;
     .logo {
       width: 120px;
     }
@@ -103,7 +104,6 @@ const Wrapper = styled.div`
       font-size: 17px;
       font-style: normal;
       font-weight: 400;
-      line-height: 6.167px;
     }
     .socials {
       margin: 30px 0;
@@ -125,7 +125,7 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      padding: 40px 20px 50px;
+      padding: 40px 0px 50px;
     }
   }
 `;
