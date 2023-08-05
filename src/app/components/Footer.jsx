@@ -111,9 +111,14 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 1023px) {
-  p {
-    font-size: 14px;
-   }
+    section {
+      h1 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
   }
   @media (max-width: 500px) {
     background: #01162e;
@@ -124,6 +129,9 @@ const Wrapper = styled.div`
       flex-direction: column;
       gap: 30px;
       text-align: center;
+      p {
+        font-size: 16px;
+      }
     }
     .btm {
       display: flex;
@@ -131,6 +139,9 @@ const Wrapper = styled.div`
       align-items: center;
       flex-direction: column;
       padding: 40px 0px 50px;
+      p {
+        font-size: 15px;
+      }
     }
   }
 `;

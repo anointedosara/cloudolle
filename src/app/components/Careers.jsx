@@ -114,6 +114,11 @@ const Wrapper = styled.div`
       gap: 40px;
     }
   }
+  @media (max-width: 1023px) {
+    p {
+      font-size: 16px;
+    }
+  }
   @media (max-width: 768px) {
     h1 {
       font-size: 25px;

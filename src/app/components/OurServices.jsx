@@ -90,6 +90,11 @@ const Wrapper = styled.div`
     font-weight: 500;
     line-height: 27px;
   }
+  @media (max-width: 1023px) {
+    p {
+      font-size: 16px;
+    }
+  }
   @media (max-width: 500px) {
     h1 {
       font-size: 30px;
