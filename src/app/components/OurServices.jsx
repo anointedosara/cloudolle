@@ -92,6 +92,12 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     width: 100%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
   }
   @media (max-width: 500px) {
     h1 {

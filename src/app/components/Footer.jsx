@@ -112,6 +112,14 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     width: 100%;
+    section {
+      h1 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
   }
   @media (max-width: 500px) {
     background: #01162e;
