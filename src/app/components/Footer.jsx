@@ -114,16 +114,6 @@ width: 100%;
   }
   @media (max-width: 1023px) {
     width: 100%;
-    section {
-      width: 100%;
-      flex-wrap: wrap !important;
-      h1 {
-        font-size: 16px;
-      }
-      p {
-        font-size: 13px;
-      }
-    }
   }
   @media (max-width: 500px) {
     background: #01162e;
