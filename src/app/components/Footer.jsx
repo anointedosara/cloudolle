@@ -68,7 +68,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap !important;
-    gap: 30px;
+    gap: 30px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     h1 {
       color: #fff;
@@ -115,10 +115,10 @@ const Wrapper = styled.div`
       flex-wrap: wrap !important;
       width: 100%;
       h1 {
-        font-size: 11px;
+        font-size: 9px;
       }
       p {
-        font-size: 9px;
+        font-size: 7px;
       }
     }
   }
