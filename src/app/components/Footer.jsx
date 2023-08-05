@@ -110,6 +110,8 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 1023px) {
+    max-width: 100%;
+      margin: 0 auto;
     section {
       flex-wrap: wrap !important;
       max-width: 100%;
