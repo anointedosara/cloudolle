@@ -110,6 +110,11 @@ const Wrapper = styled.div`
       width: 170px;
     }
   }
+  @media (max-width: 1023px) {
+  p {
+    font-size: 14px;
+   }
+  }
   @media (max-width: 500px) {
     background: #01162e;
     padding: 50px 20px 0;
