@@ -114,10 +114,10 @@ const Wrapper = styled.div`
     width: 100%;
     section {
       h1 {
-        font-size: 16px;
+        font-size: 18px;
       }
       p {
-        font-size: 14px;
+        font-size: 15px;
       }
     }
   }
