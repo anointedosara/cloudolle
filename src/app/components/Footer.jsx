@@ -67,7 +67,7 @@ const Wrapper = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     gap: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     h1 {
@@ -112,13 +112,13 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     section {
-      flex-wrap: wrap;
+      flex-wrap: wrap !important;
       width: 100%;
       h1 {
         font-size: 18px;
       }
       p {
-        font-size: 13px;
+        font-size: 9px;
       }
     }
   }

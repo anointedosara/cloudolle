@@ -120,7 +120,7 @@ const Wrapper = styled.div`
   }
   @media (max-width: 1023px) {
     p {
-      font-size: 13px;
+      font-size: 9px;
     }
   }
   @media (max-width: 500px) {
