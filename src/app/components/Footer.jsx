@@ -69,7 +69,7 @@ width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     gap: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
     h1 {
@@ -114,6 +114,16 @@ width: 100%;
   }
   @media (max-width: 1023px) {
     width: 100%;
+    section {
+      width: 100%;
+      flex-wrap: wrap !important;
+      h1 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
   }
   @media (max-width: 500px) {
     background: #01162e;
@@ -124,6 +134,12 @@ width: 100%;
       flex-direction: column;
       gap: 30px;
       text-align: center;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
     .btm {
       display: flex;
