@@ -73,7 +73,6 @@ const Wrapper = styled.div`
     h1 {
       color: #fff;
       font-size: 22px;
-      font-style: normal;
       font-weight: 500;
       line-height: 30.147px;
       margin-bottom: 20px;
@@ -113,7 +112,8 @@ const Wrapper = styled.div`
   @media (max-width: 1023px) {
     section {
       flex-wrap: wrap !important;
-      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
       h1 {
         font-size: 9.5px;
       }
